@@ -1,0 +1,88 @@
+.main {
+  display: grid;
+  grid-gap: 15px;
+  margin-top: 40px;
+  grid-template-columns: 1fr;
+}
+
+.title-Markdown {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  align-items: center;
+}
+
+.text-container {
+  background-color: #2f2f;
+  border-top-left-radius: 20px;
+  width: 31%;
+  text-align: center;
+  font-size: 20px;
+  border: solid 2px #fff;
+  font-weight: bold;
+}
+
+#editor {
+  width: 30%;
+  height: 40vh;
+  background-color: #2f2f2f;
+  color: #2f2f;
+  overflow: auto;
+  resize: none;
+  padding: 10px;
+  border-bottom-left-radius: 20px;
+  border: solid 2px #fff;
+}
+
+#preview {
+  width: 50%;
+  height: auto;
+  margin-top: 20px;
+  font-size: 12px;
+  background-color: #2f2f2f;
+  padding: 25px;
+  overflow: auto;
+  border-radius: 20px;
+}
+
+img {
+  max-width: 100px;
+}
+
+pre,
+code {
+  background-color: #e2e1e1;
+  color: #000;
+}
+
+pre {
+  padding: 10px;
+}
+
+.content-p-developer {
+  position: fixed;
+  bottom: 5px;
+  right: 6px;
+}
+.p-developer {
+  font-weight: bolder;
+  color: #dddcdc;
+}
+
+@media screen and (max-width: 800px) {
+
+  pre {
+    width: 100%;
+    overflow-y: auto;
+  }
+
+  .content-p-developer {
+    right: 0px;
+  }
+}
