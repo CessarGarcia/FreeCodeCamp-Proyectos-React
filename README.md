@@ -12,4 +12,4 @@
 
 El certificado lo puedes encontrar en:
 
-https://www.freecodecamp.org/certification/cessar\_garcia13/front-end-development-libraries
+https://www.freecodecamp.org/certification/cessar_garcia13/front-end-development-libraries
